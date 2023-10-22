@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    background-color:#efefef;
+}
+
+header h1{
+    background-color: rgb(6, 6, 84);
+    color: blanchedalmond;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.carrusel{
+    width: 250px;
+}
+
+header h2{
+    background-color: rgb(6, 6, 84);
+    color: blanchedalmond;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.presentacion{
+    background-color: rgb(6, 6, 84);
+    color: blanchedalmond;
+    padding:2rem;
+    text-align:left ;
+}
+
+
+.producto img{
+    width: 250px;
+    margin: 0 auto;
+}
+
+
+.container{
+    width: 250px;
+    margin: 0 auto;
+}
+
+section article{
+    transition: box-shadow 0.3s ease;
+    width: 250px;
+    color: blanchedalmond;
+    background-color:rgb(58, 45, 155);
+    margin: 1rem 0;
+    border-radius:0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.989);
+}
+
+footer{
+    background-color: rgb(209, 202, 232);
+    color: rgb(0, 0, 0);
+    padding: 3rem 2rem;
+}
